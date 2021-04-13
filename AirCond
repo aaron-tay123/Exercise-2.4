@@ -1,0 +1,66 @@
+package AirCondSetterGetter;
+
+public class AirCond {
+
+	String brand;
+	String size;
+	String model;
+	String color;
+	int price;
+	int warrantyPeriod;
+	
+	// Create Setter Method
+		  public void setBrand(String brand) {
+		    this.brand = brand;
+		  }
+		  
+		  public void setSize(String size) {
+			    this.size = size;
+		  }
+		  
+		  public void setModel(String model) {
+			  this.model = model;
+		  }
+		  
+		  public void setColor(String color) {
+		    this.color = color;
+		  }
+		  
+		  public void setPrice(int price) {
+			  this.price = price;
+		  }
+		  
+		  public void setWarrantyPeriod(int warrantyPeriod) {
+			  this.warrantyPeriod = warrantyPeriod;
+		  }
+
+		  // Create Getter Method
+		  public String getBrand() {
+			  return this.brand;
+		  }
+		  
+		  public String getSize() {
+		 	  return this.size;
+	 	  }
+		  
+		  public String getModel() {
+			  return this.model;
+		  }
+		  
+		  public String getColor() {
+			  return this.color;
+		  }
+		  
+		  public int getPrice() {
+			  return this.price;
+		  }
+		  
+		  public int getWarrantyPeriod() {
+			  return this.warrantyPeriod;
+		  }
+		  
+		  public void statement() {
+			  System.out.println(brand +" is the brand of AirConditional that is popular for everyone to buy.");
+		  }
+}
+
