@@ -1,0 +1,25 @@
+package AirCondSetterGetter;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		AirCond gree = new AirCond();
+
+		gree.setBrand("Gree");
+		gree.setSize ("Medium");
+		gree.setModel("SU-09LTA17/HSU-0");
+		gree.setColor("White");
+		gree.setPrice(1359);
+		gree.setWarrantyPeriod(5);
+		
+		System.out.println("Brand          : " + gree.getBrand());
+		System.out.println("Size           : " + gree.getSize());
+		System.out.println("Model          : " + gree.getModel());
+		System.out.println("Color          : " + gree.getColor());
+		System.out.println("Price          : " + "RM" + gree.getPrice());
+		System.out.println("WarrantyPeriod : " + gree.getWarrantyPeriod() + "years");
+    gree.statement();
+	}
+
+}
